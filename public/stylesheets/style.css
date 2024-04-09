@@ -1,0 +1,146 @@
+/*Título en cursiva*/
+h1 {
+    font-style: italic;
+  }
+
+  /*Ancho es del 50 y está centrada la etiqueta*/
+  #secciondatos {
+    width: 50%;
+    margin: 0 auto;
+    background-color: aquamarine;
+  }
+
+  
+  h2{
+    font-family: 'Open Sans', sans-serif;
+
+  }
+
+  p {
+    text-align: center;
+  }
+
+  span {
+    text-align: center;
+  }
+
+  #seccionredes {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aquamarine;  
+  }
+
+  #secciongaleria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: cyan;
+  }
+
+  a {
+    font-weight: 600;
+  }
+
+
+  .seccion {
+    width: 50%;
+    margin: 0 auto; 
+}
+
+
+
+#seccionhabilidades table td {
+    text-align: center;
+}
+
+
+#seccionhabilidades table {
+    margin: 0 auto;
+    background-color: dodgerblue;
+}
+
+#seccionhabilidades h2 {
+  text-align: center;
+  
+}
+
+.seccion {
+  background-color: rgba(255, 255, 255, 0.801);
+  padding: 2%;
+  margin-top: 2% !important;
+  margin-bottom: 2% !important;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+  
+}
+
+
+section h2 {
+  color: #0BCC7B;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+nav ul {
+  list-style-type: none;
+}
+
+
+#secciondatos p {
+  font-size: 1.4rem;
+  margin-top: 6%;
+  color: #373b41;
+}
+
+#seccioncontactenos {
+  display: grid;
+  grid-template-areas:  "area1 area1 area1 area1"
+                        "area2 area2 area3 area3"
+                        "area4 area4 area5 area5";          
+                        background-color: aquamarine;              
+}
+
+#contactame {
+  grid-area: area1;
+  text-align: center;
+}
+
+#susdatos {
+  grid-area: area2;
+}
+
+#ubicacion {
+  text-align: center;
+  grid-area: area3;
+}
+
+#formulario {
+  grid-area: area4;
+}
+
+#mapa {
+  grid-area: area5;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+#secciondatos {
+  text-align: center;
+}
